@@ -33,4 +33,11 @@ pyenv global [python_version]
 pyenv local [python_version]
 ```
 
-# Convert to LovelyLang
+## Resolve error: python -V and virtualenv versions are different
+```
+pyenv local [the version you wanna use] | pyenv global [the version]
+Confirm the convertion -> python -V
+pyenv which python <- copy the path
+virtualenv -p [pasting the path] [folder_name]
+source bin/activate
+```
