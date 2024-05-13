@@ -6,8 +6,8 @@
 ### If you install brew at first, make sure that you press ENTER/RETURN
 ```
 brew install pyenv
-touch ~./zshrc
-nano ~./zshrc
+touch ~/.zshrc
+nano ~/.zshrc
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
@@ -15,7 +15,7 @@ eval "$(pyenv init --path)"
 ### After copy and paste it, press the key ^O + ^X for save
 ### And then following the code below
 ```
-source ~./zshrc
+source ~/.zshrc
 ```
 ```
 python3 -V  | python3 --version
