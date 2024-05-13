@@ -32,7 +32,7 @@ pyenv global [python_version]
 pyenv local [python_version]
 ```
 
-**Resolve error: python -V and virtualenv versions are different**
+***resolve error:*****python -V and virtualenv versions are different**
 ```
 pyenv local [the version you wanna use] | pyenv global [the version]
 Confirm the convertion -> python -V
