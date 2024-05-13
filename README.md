@@ -12,7 +12,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 ```
-### After copy and paste it, press the key ^O + ^X for save
+### After copy and paste it, press the key ^O + ^X + Enter for save
 ### And then following the code below
 ```
 source ~/.zshrc
