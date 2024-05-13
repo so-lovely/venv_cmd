@@ -32,3 +32,5 @@ virtualenv [file_name]
 pyenv global [python_version]
 pyenv local [python_version]
 ```
+
+# Convert to LovelyLang
